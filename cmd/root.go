@@ -15,7 +15,6 @@ type TestResult struct {
 	Action  string
 	Package string
 	Test    string
-	Elapsed string
 }
 
 var rootCmd = &cobra.Command{
