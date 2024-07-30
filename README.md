@@ -1,8 +1,16 @@
 # showit
+
 Simple example of how to transform go testing output into an emojified report
 
-## Building
+## Installing
 
+```sh
+$ brew tap rossedman/tap
+$ brew install rossedman/tap/showit
 ```
-goreleaser --snapshot --clean
+
+## Using
+
+```sh
+$ go test -v ./... -json | showit
 ```
