@@ -34,8 +34,8 @@ changelog:
       - "^docs:"
       - "^test:"
 
-# brews:
-#   - name: homebrew
-#     repository:
-#       owner: rossedman
-#       name: homebrew-tap
+brews:
+  - name: homebrew
+    repository:
+      owner: rossedman
+      name: homebrew-tap
