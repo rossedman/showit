@@ -35,7 +35,8 @@ changelog:
       - "^test:"
 
 brews:
-  - name: homebrew
+  - name: showit
     repository:
       owner: rossedman
       name: homebrew-tap
+    directory: Formula
